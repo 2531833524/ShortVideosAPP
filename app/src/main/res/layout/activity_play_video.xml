@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_short_video_title"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="16dp"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold" />-->
+
+    <ImageView
+        android:id="@+id/iv_video_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/video_background_image1" />
+
+    <ImageButton
+        android:id="@+id/btn_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="306dp"
+        android:layout_marginBottom="296dp"
+        android:contentDescription="@string/comment"
+        android:elevation="0dp"
+        android:src="@drawable/rc111" />
+
+    <ImageButton
+        android:id="@+id/btn_upload"
+        android:layout_width="83dp"
+        android:layout_height="82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="@string/upload"
+        android:elevation="0dp"
+        android:src="@drawable/sc111" />
+
+
+</RelativeLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    &lt;!&ndash; 评论按钮 &ndash;&gt;-->
+
+<!--    &lt;!&ndash; 上传按钮 &ndash;&gt;-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_short_video_title"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="16dp"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/btn_comment"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="103dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginLeft="308dp"-->
+<!--        android:layout_marginBottom="278dp"-->
+<!--        android:contentDescription="@string/comment"-->
+<!--        android:src="@drawable/ic_comment" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/btn_upload"-->
+<!--        android:layout_width="182dp"-->
+<!--        android:layout_height="42dp"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginRight="102dp"-->
+<!--        android:layout_marginBottom="7dp"-->
+<!--        android:contentDescription="@string/upload"-->
+<!--        android:src="@drawable/ic_upload" />-->
+
+<!--</RelativeLayout>-->

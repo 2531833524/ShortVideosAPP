@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="comment">评论</string>
+    <string name="upload">上传</string>
+    <string name="tjpj">提交评价</string>
+    <string name="qsrplnr">请输入评论内容</string>
+
+</resources>
